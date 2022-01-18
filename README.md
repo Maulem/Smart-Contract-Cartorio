@@ -36,7 +36,7 @@ truffle console
 ```
 Esse console funciona com Javascript, então é só digitar os comando abaixo para interagir com o contrato.
 
--Vamos então chamar o contrato sempre por uma variavel (bote o endereço que você anotou no comando):
+- Vamos então chamar o contrato sempre por uma variavel (bote o endereço que você anotou no comando):
 ```js
 var doc; DocumentSignSimple.at(bote_aqui_o_endereço_de_crição_do_contrato).then( function(x) { doc = x });
 // Exemplo:
@@ -48,15 +48,13 @@ var doc; DocumentSignSimple.at("0x32d1603064069e5268B9D6B03C4F00991033a86F").the
 - Faz assinatura do contrato(só permite assinar se você for o signatario certo):
 ```js
 doc.Sign({from:endereço_do_signatario});
-// Exemplo:
-doc.Sign({from:"0xF9011ad863FE9060C49D906FCe6AEae0Fe1BFc20"});
+// Exemplo: doc.Sign({from:"0xF9011ad863FE9060C49D906FCe6AEae0Fe1BFc20"});
 ```
 
 - View que checa se o nome do documento passado é igual ao nome do documento que está no contrato:
 ```js
 doc.MatchDocument(nome_do_documento);
-// Exemplo:
-doc.MatchDocument("doc1");
+// Exemplo: doc.MatchDocument("doc1");
 ```
 - View que retorna o Hash do nome do documento e se ele foi assinado ou não:
 ```js
