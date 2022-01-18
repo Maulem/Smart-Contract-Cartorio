@@ -39,8 +39,7 @@ Esse console funciona com Javascript, então é só digitar os comando abaixo pa
 - Vamos então chamar o contrato sempre por uma variavel (bote o endereço que você anotou no comando):
 ```js
 var doc; DocumentSignSimple.at(bote_aqui_o_endereço_de_crição_do_contrato).then( function(x) { doc = x });
-// Exemplo:
-var doc; DocumentSignSimple.at("0x32d1603064069e5268B9D6B03C4F00991033a86F").then( function(x) { doc = x });
+// Exemplo: var doc; DocumentSignSimple.at("0x32d1603064069e5268B9D6B03C4F00991033a86F").then( function(x) { doc = x });
 ```
 
 ## Comandos para usar no contrato
