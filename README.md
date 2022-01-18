@@ -35,7 +35,8 @@ Se deu tudo certo até aqui e o espaço de trabalho da ganache é novo deve ter 
 truffle console
 ```
 Esse console funciona com Javascript, então é só digitar os comando abaixo para interagir com o contrato.
--Vamos então chamar o contrato sempre por uma variavel(bote o endereço que você anotou no comando):
+
+-Vamos então chamar o contrato sempre por uma variavel (bote o endereço que você anotou no comando):
 ```js
 var doc; DocumentSignSimple.at(bote_aqui_o_endereço_de_crição_do_contrato).then( function(x) { doc = x });
 // Exemplo:
