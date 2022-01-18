@@ -74,4 +74,5 @@ Os 8 testes devem funcionar.
 
 ## Link util:
 
-Ajudou em entender como dar deploy e interagir com o contrato: https://jianjye.com/articles/13/how-to-develop-ethereum-smart-contract-with-truffle-and-ganache
+- Ajudou em entender como dar deploy e interagir com o contrato: 
+https://jianjye.com/articles/13/how-to-develop-ethereum-smart-contract-with-truffle-and-ganache
