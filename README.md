@@ -12,14 +12,14 @@ Este contrato é feito em Solidity e tem algumas dependencias:
 
 ## Como iniciar o contrato
 1. Abra o Ganache
-2. Abra o prompt de comando e execute:
+2. Abra o prompt de comando e execute (Apenas se for a primeira vez que está sendo executado o ganacha):
 ```
 truffle init
 ```
 3. Antes de iniciar o contrato é importante ir no arquivo "2_signSimple_migration.js" e alterar o endereço de quem vai assinar o contrato (esse endereço pode ser qualquer um que tenha no ganache) e o nome do contrato.
 4. Faça o deploy do contrato:
 ```
-truffle deploy
+truffle deploy --reset
 ```
 
 ## Como interagir com o contrato
